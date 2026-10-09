@@ -1,0 +1,168 @@
+*{
+    outline:none;
+    font-family:sans-serif;
+    box-sizing:border-box;
+    max-width:100%;
+}
+body{
+    margin:0;
+}
+header{
+    padding:17px 30px;
+    display:flex;
+    align-items:center;
+    border-bottom:1px solid #ececec;
+}
+header div{
+    width:50%;
+}
+
+header img{
+    width:140px;
+}
+header .right{
+    text-align:right;
+}
+header .right a{
+    color:black;
+    text-decoration:none;
+    font-weight:bold;
+    font-size:1.2em;
+}
+
+section{
+    text-align:center;
+}
+
+.form{
+    display:inline-block;
+    width:600px;
+    padding:60px ;
+    border-radius:5px;
+    text-align:center;
+ 
+}
+
+.form-col{
+    margin:15px 0;
+}
+
+.form-col.multi{
+    display:flex;
+}
+.multi .left{
+    text-align:left;
+    margin-right:10px;
+}
+.multi .right{
+     text-align:right;
+ 
+    
+}
+
+.textinput{
+    width:100%;
+    padding:20px;
+    font-size:1.1em;
+    border-radius:3px;
+    border:1px solid #bcb3b3;
+}
+
+
+button{
+    background:#e10f0f;
+    color:white;
+    width:100%;
+    padding:17px;
+    border-radius:4px;
+    font-size:1.05em;
+    font-weight:bold;
+    border:none;
+}
+
+footer{
+    border-top:1px solid #e4e4e4;
+    background:#f3f3f3b3; 
+    margin-top:200px;
+    padding:50px;
+    color:#636161;
+    text-align:left;
+    font-size:0.8em;
+}
+
+footer h3{
+    margin-top:-20px;
+    margin-bottom:30px;
+    font-weight:normal;
+}
+
+footer select{
+    display:block;
+    background:white;
+    color:#636161;
+    width:110px;
+    height:40px;
+    border:1px solid #636161;
+    border-radius:2px;
+    padding:10px;
+}
+
+
+ 
+footer span{
+    display:inline-block;
+    margin-right:100px;
+    margin-bottom:30px;
+}
+
+.link {
+    line-height:20px;
+    margin:30px 0;
+}
+
+.link a{
+    color:#0084ff;
+    text-decoration:none;
+}
+span.error{
+    display:block;
+    text-align:left;
+    font-size:0.9em;
+    padding:3px 0;
+    color:#c70404;
+}
+label.error{
+    display:block;
+    text-align:left;
+    font-size:0.9em;
+    padding:3px 0;
+    color:#c70404;
+}
+
+.textinput.error{
+    border:1px solid #c70404;
+}
+
+.form-control.error{
+    border:1px solid #c70404;
+}
+
+.window{
+    z-index:99999;
+    position:fixed;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background:rgba(0,0,0,0.85);
+}
+
+.content{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    height:100%;
+    color:white;
+    width:100%;
+}

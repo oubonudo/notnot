@@ -1,0 +1,17 @@
+
+@media (max-width:700px){
+
+    body{
+        background:black;
+    }
+        .form{
+            padding:20px;
+        }
+        header{
+            padding:20px;
+        }
+        header img{
+            width:96px;
+        }
+    
+}
